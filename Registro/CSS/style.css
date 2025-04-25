@@ -1,0 +1,92 @@
+body {
+    background-image: url(/Images/crumpled-paper-texture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.register {
+    width: 500px;
+    padding: 30px;
+    margin: auto; 
+    margin-top: 100px;
+    background: linear-gradient(90deg, #34a6a8,#1b2b65,#490a66,#970da0);
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #09092d;
+    border: 2px solid;
+    border-color: #f5edf0;
+}
+
+.register h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #fcf5e4;
+}
+
+.register p {
+    font-size: 15px;
+    text-align: left;
+    color: #dcbddf;
+    margin-bottom: 25px;
+}
+
+.controls {
+    width: 100%;
+    background-color: honeydew;
+    padding: 5px;
+    border-radius: 7px;
+    border: 2px solid #00bfff;
+}
+
+.controls:focus {
+    background: #f4b2e5;
+}
+
+
+.register .botons-1 {
+    width: 100%;
+    border-radius:  5%;
+    background: #c90f5d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+
+.register .botons-2 {
+    width: 100%;
+    border-radius:  5%;
+    background: #00d689;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+
+
+.register .botons-1:hover
+{
+    background-color: #f8b251;
+}
+
+.register .botons-2:hover
+{
+    background-color: #f8b251;
+}
+
+.sec-1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    margin-top: 15px;
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+}
+
